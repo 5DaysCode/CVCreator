@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES2019",
+      "lib": ["ES2019", "DOM"],
+      "jsx": "react",                // React 16 JSX transform
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "baseUrl": "src"
+    },
+    "include": ["src"]
+  }
+  
